@@ -13,170 +13,71 @@
 **Grupo: 5 AMPG**
 
 </div>
-**ÍNDICE:** 
 
-**1.Introducción…………………………………………….2**
-
-**2\.Forms.py (LoginForm, SignupForm, NewItemForm)........3**
-
-**3\.Views.py (login(), logout\_user(), detail(), add\_item())…….5**
-
-**4.Explicación de decorador @login\_required…………..6**
-
-**5\.Urls.py (Las rutas a cada acción nueva en views).……..7**
-
-**6.Ejecución final de lo que va del proyecto……………9**
-
-**7.Conclusión………………………………………………10**
-
-Introducción
-
-En esta práctica empezamos a utilizar la herramienta Django que sirve  para desarrollar aplicaciones porque ofrece rapidez, seguridad, escalabilidad y una gran comunidad de soporte. Es un framework de alto nivel que simplifica tareas comunes y permite construir proyectos muy grandes con menos esfuerzo que utiliza la arquitectura MVC Modelo-Vista-Controladores un patrón de diseño que separa una aplicación en tres componentes principales para mejorar la organización, mantenimiento y escalabilidad del código, que fue lo que empezamos a ver desde el primer dia que dividimos en modelo que se encarga de manejar la llamada lógica de negocios y la base de datos, el vista que es el encargada de la interfaz que observa el usuario , mostrar los datos del modelo y recibir los nuevos datos, y por último el controlador maneja las dos partes la de recibir las acciones, las interpreta y con ellas actualiza a al modelo o a la vista según se requiera.
-
-Explicación de Comandos 
-
-**1. cd Documents**
-
-Sirve para entrar a la carpeta Documentos desde la terminal o consola. Indica a la computadora que cambie a la carpeta Documentos.
-
-### **2\. md “tu nombre”**
-
-Crea una nueva carpeta con el nombre que coloques entre comillas. 
-
-**3\. cd “tu nombre”**
-
-Entra a la carpeta que acabas de crear. 
-
-### **4\. md Proyectos**
-
-Crea una carpeta llamada Proyectos donde guardarás tus trabajos. 
-
-### **5\. cd Proyectos**
-
-Entra a la carpeta Proyectos. 
-
-### **6\. md dj\_marketplace**
-
-Crea una nueva carpeta llamada dj\_marketplace, que será el proyecto de Django.
-
-### **7\. cd dj\_marketplace**
-
-Entra a la carpeta dj\_marketplace. 
-
-### **8\. python \-m venv venv**
-
-Crea un entorno virtual llamado venv. Este entorno sirve para instalar librerías sin afectar otros proyectos. 
-
-### **9\. venv\\Scripts\\activate**
-
-Activa el entorno virtual que acabas de crear. 
-
-### **10\. pip install django**
-
-Instala el framework Django dentro del entorno.
-
-**11\. django-admin startproject marketplace\_main**
-
-Crea un nuevo proyecto de Django con el nombre marketplace\_main. 
-
-**12\. cd marketplace\_main**
-
-Entra a la carpeta del proyecto creado..
-
-### **13\. python manage.py runserver**
-
-Inicia el servidor local de Django para probar tu aplicación web. Ejecuta tu página en el navegador.
-
-### **14\. ctrl \+ c \+ c**
-
-Detiene el servidor que estaba corriendo en la consola.
-
-### **15\. code .**
-
-Abre el proyecto actual en Visual Studio Code. 
-
-**16\. pip install Pillow**
-
-Instala Pillow, una librería de Python para trabajar con imágenes en Django. 
-
-**17\. python manage.py migrate**
-
-Aplica las migraciones y crea las tablas en la base de datos de tu proyecto. Guarda los cambios en la base de datos.
-
-### **18\. python manage.py createsuperuser**
-
-Crea un usuario administrador para entrar al panel de administración de Django. 
-
-### **19\. python manage.py runserver**
-
-Vuelve a iniciar el servidor para probar el panel de administración. 
-
-**20\. python manage.py makemigrations**
-
-Crea archivos de migración cuando haces cambios en los modelos de tu aplicación.
-
-### **21\. python manage.py startapp store**
-
-Crea una nueva aplicación dentro del proyecto llamada store. 
-
-**22\. python manage.py changepassword**
-
-Permite cambiar la contraseña de un usuario existente (por ejemplo, el administrador). 
-
-Diagrama 
-
-![][image1]
-
-Django usa la arquitectura MVT, es muy parecida al patrón MVC, pero con algunos ajustes en la forma en que se organizan las responsabilidades 
-
-1. Model: define cómo se estructuran y almacenan los datos en la base de datos   
-2. View: contiene la lógica del negocio y se control   
-3. Template: se encarga de la presentación visual 
-
-Explicación de Archivos 
-
-### **settings.py**
-
-Archivo que contiene la configuración principal del proyecto Django. Aquí se define la base de datos, las aplicaciones instaladas, los archivos estáticos y las opciones de seguridad. Es donde se ajusta todo para que el proyecto funcione correctamente.
-
-### **urls.py**
-
-Archivo que conecta las direcciones del sitio (URLs) con las vistas que se deben mostrar. Sirve como un mapa que indica qué parte del sitio se abre según la ruta que el usuario visite.
-
-### **models.py**
-
-Archivo donde se crean los modelos que representan las tablas de la base de datos. Cada clase que se hace aquí se convierte en una tabla. Define la estructura de los datos que usará la aplicación.
-
-### **views.py**
-
-Archivo que contiene las funciones o clases que controlan qué se muestra en cada página. Procesa las peticiones del usuario y devuelve una respuesta, como una página HTML. Es la parte que maneja la lógica del sitio.
-
-### **templates/store**
-
-Esta carpeta se usa para guardar las plantillas HTML de la aplicación store.
-
-En ella se colocan los archivos que muestran el contenido visual de las páginas (como productos, inicio, carrito, etc.). Django busca en esta carpeta las plantillas que las vistas deben mostrar.
-
-Código  de Archivos 
-
-Código de “***models.py***”:
-
-![][image2]
-
-Código de “***views.py***”:
-
-![][image3]
-
-Estructuras de “***templates**”:*
-
-![][image4]
-
-Código “***settings.py***”:
-
-![][image5]
-
-Código “***urls.py***”:
-
+---
+
+<div style="margin-left: 40px; margin-right: 40px; text-align: justify;">
+
+## 📑 ÍNDICE
+1. Introducción  
+2. Forms.py (LoginForm, SignupForm, NewItemForm)  
+3. Views.py (login(), logout_user(), detail(), add_item())  
+4. Explicación de decorador @login_required  
+5. Urls.py (Las rutas a cada acción nueva en views)  
+6. Ejecución final de lo que va del proyecto  
+7. Conclusión  
+
+---
+
+## ✨ Introducción
+En esta práctica empezamos a utilizar la herramienta **Django**, que sirve para desarrollar aplicaciones porque ofrece rapidez, seguridad, escalabilidad y una gran comunidad de soporte.  
+Es un framework de alto nivel que simplifica tareas comunes y permite construir proyectos muy grandes con menos esfuerzo. Utiliza la arquitectura **MVC (Modelo-Vista-Controlador)**, un patrón de diseño que separa una aplicación en tres componentes principales para mejorar la organización, mantenimiento y escalabilidad del código.  
+
+---
+
+## ⚙️ Explicación de Comandos
+- **cd Documents** → Entra a la carpeta Documentos desde la terminal.  
+- **md "tu nombre"** → Crea una nueva carpeta con el nombre indicado.  
+- **cd "tu nombre"** → Entra a la carpeta creada.  
+- **md Proyectos** → Crea una carpeta llamada *Proyectos*.  
+- **cd Proyectos** → Entra a la carpeta *Proyectos*.  
+- **md dj_marketplace** → Crea la carpeta del proyecto Django.  
+- **cd dj_marketplace** → Entra a la carpeta del proyecto.  
+- **python -m venv venv** → Crea un entorno virtual.  
+- **venv\Scripts\activate** → Activa el entorno virtual.  
+- **pip install django** → Instala Django.  
+- **django-admin startproject marketplace_main** → Crea un nuevo proyecto.  
+- **cd marketplace_main** → Entra al proyecto.  
+- **python manage.py runserver** → Inicia el servidor local.  
+- **ctrl + c + c** → Detiene el servidor.  
+- **code .** → Abre el proyecto en VS Code.  
+- **pip install Pillow** → Instala librería para imágenes.  
+- **python manage.py migrate** → Aplica migraciones.  
+- **python manage.py createsuperuser** → Crea usuario administrador.  
+- **python manage.py makemigrations** → Genera archivos de migración.  
+- **python manage.py startapp store** → Crea nueva aplicación.  
+- **python manage.py changepassword** → Cambia contraseña de usuario.  
+
+---
+
+## 📊 Diagrama
+Django usa la arquitectura **MVT**, similar a MVC:  
+1. **Model** → Define cómo se estructuran y almacenan los datos.  
+2. **View** → Contiene la lógica de negocio.  
+3. **Template** → Se encarga de la presentación visual.  
+
+---
+
+## 📂 Explicación de Archivos
+- **settings.py** → Configuración principal del proyecto.  
+- **urls.py** → Conecta rutas con vistas.  
+- **models.py** → Define las tablas de la base de datos.  
+- **views.py** → Contiene la lógica de cada página.  
+- **templates/store** → Carpeta para las plantillas HTML.  
+
+---
+
+##
 ![][image6]
 
 Presentación final:
