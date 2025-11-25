@@ -10,7 +10,7 @@
 # **Construye aplicaciones web**
 
 **Práctica Evaluatoria Parcial 3**
-
+<center>
 ## **Aparicio Hernandez Joselin**
 
 ## **Huerta Cortes Melanie Johanna**
@@ -20,7 +20,7 @@
 ## **Rodriguez Rodriguez Fatima**
 
 ## **Salazar Acosta Layla Jayri**
-
+</center>
 **5 AMPG**
 
 **ÍNDICE:** 
