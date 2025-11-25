@@ -1,28 +1,18 @@
-# pruebaaasita[Práctica Evaluatoria Parcial 2.md](https://github.com/user-attachments/files/23754487/Practica.Evaluatoria.Parcial.2.md)
-# 
+<div align="center">
 
-# 
+# 📘 Práctica Evaluatoria Parcial 3  
 
-# 
+## **Construye aplicaciones web**
 
-# 
+### Aparicio Hernandez Joselin  
+### Huerta Cortes Melanie Johanna  
+### Mejía Cruz Heidy Clarisa  
+### Rodriguez Rodriguez Fatima  
+### Salazar Acosta Layla Jayri  
 
-# **Construye aplicaciones web**
+**Grupo: 5 AMPG**
 
-**Práctica Evaluatoria Parcial 3**
-<center>
-## **Aparicio Hernandez Joselin**
-
-## **Huerta Cortes Melanie Johanna**
-
-## **Mejía Cruz Heidy Clarisa**
-
-## **Rodriguez Rodriguez Fatima**
-
-## **Salazar Acosta Layla Jayri**
-</center>
-**5 AMPG**
-
+</div>
 **ÍNDICE:** 
 
 **1.Introducción…………………………………………….2**
