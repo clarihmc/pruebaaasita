@@ -61,7 +61,7 @@ Es un framework de alto nivel que simplifica tareas comunes y permite construir 
 ---
 
 ## 📊 Diagrama
-![Diagrama del proyecto](assets/diagrama.jpg)
+![Diagrama del proyecto](assets/diagrama.png)
 Django usa la arquitectura **MVT**, similar a MVC:  
 1. **Model** → Define cómo se estructuran y almacenan los datos.  
 2. **View** → Contiene la lógica de negocio.  
