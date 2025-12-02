@@ -19,16 +19,15 @@
 <div style="margin-left: 40px; margin-right: 40px; text-align: justify;">
 
 ## 📑 ÍNDICE
-<h2 align="center">Índice</h2>
 
 <div style="margin-left: 40px; margin-right: 40px; text-align: center;">
 <ul style="list-style-position: inside;">
   <li><a href="#introduccion">Introducción</a></li>
-  <li><a href="#explicacion-de-los-comandos">Explicación de los comandos</a></li>
+  <li><a href="#explicacion-de-comandos">Explicación de comandos</a></li>
   <li><a href="#diagrama">Diagrama</a></li>
   <li><a href="#explicacion-de-los-archivos">Explicación de los archivos</a></li>
   <li><a href="#codigo-de-los-archivos">Código de los archivos</a></li>
-  <li><a href="#ejecucion-final-de-lo-que-va-del-proyecto">Ejecución final de lo que va del proyecto</a></li>
+  <li><a href="#presentacion-final-actualizada">Presentación Final Actualizada</a></li>
   <li><a href="#conclusion">Conclusión</a></li>
 </ul>
 </div>
