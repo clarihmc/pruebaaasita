@@ -19,14 +19,19 @@
 <div style="margin-left: 40px; margin-right: 40px; text-align: justify;">
 
 ## 📑 ÍNDICE
-1. Introducción  
-2. Forms.py (LoginForm, SignupForm, NewItemForm)  
-3. Views.py (login(), logout_user(), detail(), add_item())  
-4. Explicación de decorador @login_required  
-5. Urls.py (Las rutas a cada acción nueva en views)  
-6. Ejecución final de lo que va del proyecto  
-7. Conclusión  
+<h2 align="center">Índice</h2>
 
+<div style="margin-left: 40px; margin-right: 40px; text-align: center;">
+<ul style="list-style-position: inside;">
+  <li><a href="#introduccion">Introducción</a></li>
+  <li><a href="#explicacion-de-los-comandos">Explicación de los comandos</a></li>
+  <li><a href="#diagrama">Diagrama</a></li>
+  <li><a href="#explicacion-de-los-archivos">Explicación de los archivos</a></li>
+  <li><a href="#codigo-de-los-archivos">Código de los archivos</a></li>
+  <li><a href="#ejecucion-final-de-lo-que-va-del-proyecto">Ejecución final de lo que va del proyecto</a></li>
+  <li><a href="#conclusion">Conclusión</a></li>
+</ul>
+</div>
 ---
 
 ## ✨ Introducción
